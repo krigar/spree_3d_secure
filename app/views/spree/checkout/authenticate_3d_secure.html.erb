@@ -1,0 +1,7 @@
+<%= form_tag @payment.acs_url, :id => 'authenticate_3d_secure' do %>
+  <%= hidden_field_tag(:MD, @payment.md) %>
+  <%= hidden_field_tag(:PaReq, @payment.pareq) %>
+  <%= hidden_field_tag(:TermUrl, @term_url) %>
+<% end %>
+
+<%= javascript_tag "document.getElementById('authenticate_3d_secure').submit();" %>

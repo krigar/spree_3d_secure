@@ -1,0 +1,214 @@
+/*
+ * jsTree apple theme 1.0
+ * Supported features: dots/no-dots, icons/no-icons, focused, loading
+ * Supported plugins: ui (hovered, clicked), checkbox, contextmenu, search
+ */
+/* line 8, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple > ul {
+  background: url(/assets/jquery.jstree/themes/apple/bg.jpg) left top repeat;
+}
+
+/* line 10, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple li,
+.jstree-apple ins {
+  background-image: url(/assets/jquery.jstree/themes/apple/d.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+/* line 11, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple li {
+  background-position: -90px 0;
+  background-repeat: repeat-y;
+}
+
+/* line 12, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple li.jstree-last {
+  background: transparent;
+}
+
+/* line 13, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple .jstree-open > ins {
+  background-position: -72px 0;
+}
+
+/* line 14, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple .jstree-closed > ins {
+  background-position: -54px 0;
+}
+
+/* line 15, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple .jstree-leaf > ins {
+  background-position: -36px 0;
+}
+
+/* line 17, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple a {
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  text-shadow: 1px 1px 1px white;
+}
+
+/* line 18, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple .jstree-hovered {
+  background: #e7f4f9;
+  border: 1px solid #d8f0fa;
+  padding: 0 3px 0 1px;
+  text-shadow: 1px 1px 1px silver;
+}
+
+/* line 19, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple .jstree-clicked {
+  background: #beebff;
+  border: 1px solid #99defd;
+  padding: 0 3px 0 1px;
+}
+
+/* line 20, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple a .jstree-icon {
+  background-position: -56px -20px;
+}
+
+/* line 21, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple a.jstree-loading .jstree-icon {
+  background: url(/assets/jquery.jstree/themes/apple/throbber.gif) center center no-repeat !important;
+}
+
+/* line 23, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple.jstree-focused {
+  background: white;
+}
+
+/* line 26, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple .jstree-no-dots li,
+.jstree-apple .jstree-no-dots .jstree-leaf > ins {
+  background: transparent;
+}
+
+/* line 27, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple .jstree-no-dots .jstree-open > ins {
+  background-position: -18px 0;
+}
+
+/* line 28, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple .jstree-no-dots .jstree-closed > ins {
+  background-position: 0 0;
+}
+
+/* line 30, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple .jstree-no-icons a .jstree-icon {
+  display: none;
+}
+
+/* line 32, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple .jstree-search {
+  font-style: italic;
+}
+
+/* line 34, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple .jstree-no-icons .jstree-checkbox {
+  display: inline-block;
+}
+
+/* line 35, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple .jstree-no-checkboxes .jstree-checkbox {
+  display: none !important;
+}
+
+/* line 36, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple .jstree-checked > a > .jstree-checkbox {
+  background-position: -38px -19px;
+}
+
+/* line 37, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple .jstree-unchecked > a > .jstree-checkbox {
+  background-position: -2px -19px;
+}
+
+/* line 38, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple .jstree-undetermined > a > .jstree-checkbox {
+  background-position: -20px -19px;
+}
+
+/* line 39, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple .jstree-checked > a > .checkbox:hover {
+  background-position: -38px -37px;
+}
+
+/* line 40, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple .jstree-unchecked > a > .jstree-checkbox:hover {
+  background-position: -2px -37px;
+}
+
+/* line 41, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple .jstree-undetermined > a > .jstree-checkbox:hover {
+  background-position: -20px -37px;
+}
+
+/* line 43, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+#vakata-dragged.jstree-apple ins {
+  background: transparent !important;
+}
+
+/*#vakata-dragged.jstree-apple .jstree-ok { background:image-url("jquery.jstree/themes/apple/d.png") -2px -53px no-repeat !important; }*/
+/*#vakata-dragged.jstree-apple .jstree-invalid { background:image-url("jquery.jstree/themes/apple/d.png") -18px -53px no-repeat !important; }*/
+/*#jstree-marker.jstree-apple { background:image-url("jquery.jstree/themes/apple/d.png") -41px -57px no-repeat !important; text-indent:-100px; }*/
+/* line 48, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple a.jstree-search {
+  color: aqua;
+}
+
+/* line 49, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+.jstree-apple .jstree-locked a {
+  color: silver;
+  cursor: default;
+}
+
+/* line 52, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+#vakata-contextmenu.jstree-apple-context,
+#vakata-contextmenu.jstree-apple-context li ul {
+  background: #f0f0f0;
+  border: 1px solid #979797;
+  -moz-box-shadow: 1px 1px 2px #999;
+  -webkit-box-shadow: 1px 1px 2px #999;
+  box-shadow: 1px 1px 2px #999;
+}
+
+/* line 54, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+#vakata-contextmenu.jstree-apple-context a {
+  color: black;
+}
+
+/* line 56, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+#vakata-contextmenu.jstree-apple-context a:hover,
+#vakata-contextmenu.jstree-apple-context .vakata-hover > a {
+  padding: 0 5px;
+  background: #e8eff7;
+  border: 1px solid #aecff7;
+  color: black;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 58, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+#vakata-contextmenu.jstree-apple-context li.jstree-contextmenu-disabled a,
+#vakata-contextmenu.jstree-apple-context li.jstree-contextmenu-disabled a:hover {
+  color: silver;
+  background: transparent;
+  border: 0;
+  padding: 1px 4px;
+}
+
+/* line 59, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+#vakata-contextmenu.jstree-apple-context li.vakata-separator {
+  background: white;
+  border-top: 1px solid #e0e0e0;
+  margin: 0;
+}
+
+/* line 60, /Users/paulskarseth/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/bundler/gems/spree-fcf386391bf0/backend/vendor/assets/javascripts/jquery.jstree/themes/apple/style.scss */
+#vakata-contextmenu.jstree-apple-context li ul {
+  margin-left: -4px;
+}
+
+/* TODO: IE6 support - the `>` selectors */
